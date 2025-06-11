@@ -2,6 +2,7 @@
 
 
 * ##### Initializes a New Git Repository
+    Type this in your Terminal to create a git repositotry on your local
     ```
     git init
     ```
@@ -26,20 +27,19 @@
     git commit -m 'brief coment about commit'
     ```
 
-* ##### Pushing the Local Branch to the GitHub Repository Master Branch
-    ```
-    git push origin master
-    ```
-
 * ##### Pulling a Branch from a Remote Repository (GitHub)
     ```
     git pull
     ```
 
+* ##### Pushing the Local Branch to the GitHub Repository Master Branch
+    ```
+    git push origin master
+    ```
+
 * ##### Clone a GitHub Repository on Your Local
     This is done when you make a repository on GitHub first, then you clone it in your local.
-    * Create a new repository on GitHub
-    * Copy the ssh-url:
+    * Copy the GitHub repository ssh-url:
     > your-repository -> code -> copy ssh-url
     * paste it on your local:
     ```
@@ -48,6 +48,10 @@
 
 * ##### Add a Local Repository on Your GitHub
     This is done when you make a repository on Local first, then you push it to GitHub.
+    * Create a git repositotry on your local
+    ```
+    git init
+    ```
     * Create a new repository on GitHub
     * Copy the ssh-url:
     > your-repository -> code -> copy ssh-url
