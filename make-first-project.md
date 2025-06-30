@@ -12,14 +12,12 @@
     ```
     source .venv/bin/activate
     ```
-    now you must see ```(.venv)``` in the begining of every line of your termminal
+    now you must see ```(.venv)``` in the begining of every line of your termminal. You can Deactivate Virtual Enviroment with ```deactivate```.
 
-* #### Deactivate Virtual Enviroment
-    ```
-    deactivate
-    ```
+* #### Install ipynb kernel
+    install jupyter kernel manualy in vscode
 
-* #### Installin Libraries
+* #### Installing Libraries
     you can either install one by one:
     ```
     pip install numpy
