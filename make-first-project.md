@@ -26,5 +26,5 @@
     ```
     or you can install several libraries at a time:
     ```
-    pip install numpy pandas matplotlib seaborn
+    pip install pandas seaborn scikit-learn
     ```
